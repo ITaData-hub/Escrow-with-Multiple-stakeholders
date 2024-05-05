@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Intro-Black-Alt';
+	src: url('../fonts/intro-black-alt.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/intro-black-alt.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/intro-black-alt.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/intro-black-alt.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/intro-black-alt.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/intro-black-alt.svg#intro-black-alt') format('svg'); /* Chrome < 4, Legacy iOS */
+}

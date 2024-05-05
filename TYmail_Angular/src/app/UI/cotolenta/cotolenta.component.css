@@ -1,0 +1,53 @@
+.lenta-wrap{
+    overflow: hidden;
+    width: 100%;
+    box-sizing: content-box;
+}
+
+.lenta{
+    display: inline-block;
+    white-space: nowrap;
+    box-sizing: content-box;
+    width: 100%;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: lenta;
+    animation-name: lenta;
+    -webkit-animation-duration: 30s;
+    animation-duration: 30s;
+}
+
+.lenta-item{
+    color: var(--color-white);
+    display: inline-block;
+    padding: 0 2rem;
+    font-family: 'Intro-Black-Alt';
+    font-size: calc(var(--index)*1);
+
+}
+
+@-webkit-keyframes lenta{
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}
+
+@keyframes lenta{
+    0% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        visibility: visible;
+    }
+    100% {
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0);
+    }
+}

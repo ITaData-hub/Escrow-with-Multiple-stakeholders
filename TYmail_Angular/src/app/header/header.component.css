@@ -1,0 +1,17 @@
+.container{
+    padding: calc(var(--index)*1);
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+h3{
+    width: calc(100% - (var(--index)*8));
+    text-align: center;
+    color: var(--color-white);
+}
+
+.logo{
+    width: calc(var(--index)*3);
+    height: calc(var(--index)*3);
+}
